@@ -1,0 +1,34 @@
+.hero_Contact {
+  
+    color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/contact-bg.jpg);
+  height: 600px;
+  max-width: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero_Contact_div{
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_Contact_h1{
+    font-size: 80px;
+    margin: 0px 0px 8px;
+    font-weight: 800;
+}
+.hero_Contact_span{
+    font-size: 24px;
+    margin: 10px 0px 0px;
+    font-weight: 400;
+}

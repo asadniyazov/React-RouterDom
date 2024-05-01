@@ -1,0 +1,29 @@
+.hero {
+  
+    color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(31, 22, 29, 1)
+    ),
+    url("http://127.0.0.1:5502/week2/day6/assets/img/home-bg.jpg");
+  height: 600px;
+  max-width: 2010px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-size: 400;
+}
+.hero__div{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 12px;
+    letter-spacing: 0.5px;
+}
